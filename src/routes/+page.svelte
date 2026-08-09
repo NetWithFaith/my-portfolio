@@ -1,5 +1,5 @@
 <div class="min-h-screen flex flex-col items-center justify-center bg-slate-900 text-slate-100 gap-4">
-	<h1 class="text-5xl font-bold text-center">
+	<h1 class="text-3xl md:text-5xl font-bold text-center">
 		Hello, I'm Frank Faith.
 	</h1>
 
@@ -7,7 +7,7 @@
 		Learning, building, and connecting in tech.
 	</p>
 
-	<div class="flex gap-8">
+	<div class="flex flex-col gap-4 md:flex-row md:gap-8">
 		<a href="https://github.com/NetWithFaith" target="_blank" class="text-lg underline hover:text-blue-400 transition-colors">
 			GitHub
 		</a>
