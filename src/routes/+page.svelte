@@ -1,288 +1,129 @@
 <svelte:head>
-	<title>Frank Faith | Computer Science Student</title>
+	<title>Frank Faith— Developer</title>
+
 	<meta
 		name="description"
-		content="Frank Faith — Computer Science student building skills in networking and exploring web development."
+		content="Frank Faith — Computer Science student learning web development and networking."
 	/>
 </svelte:head>
 
-<div class="min-h-screen bg-slate-950 text-slate-100">
+<main>
 
-	<!-- Navigation -->
-	<nav class="border-b border-slate-800">
-		<div class="max-w-5xl mx-auto px-6 py-5 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+	<!-- HERO -->
+	<section class="bg-slate-950">
 
-			<a href="/" class="font-bold text-lg tracking-tight">
-				NetWithFaith
-			</a>
+		<div class="mx-auto max-w-6xl px-6 py-28 lg:py-36">
 
-			<div class="flex flex-wrap gap-x-4 gap-y-2 text-sm text-slate-400">
-				<a href="#about" class="hover:text-white transition-colors">
-					About
-				</a>
+			<div class="max-w-3xl">
 
-				<a href="#learning" class="hover:text-white transition-colors">
-					Learning
-				</a>
+				<p class="text-sm font-semibold uppercase tracking-widest text-blue-400">
+					Computer Science Student
+				</p>
 
-				<a href="#contact" class="hover:text-white transition-colors">
-					Contact
-				</a>
-			</div>
-
-		</div>
-	</nav>
-
-
-	<!-- Hero -->
-	<section class="max-w-5xl mx-auto px-6 py-24 md:py-32">
-
-		<div class="max-w-3xl">
-
-			<p class="text-blue-400 font-medium mb-5">
-				Hello, I'm
-			</p>
-
-			<h1 class="text-5xl md:text-7xl font-bold tracking-tight">
-				Frank Faith.
-			</h1>
-
-			<h2 class="mt-6 text-2xl md:text-4xl font-semibold text-slate-300 leading-tight">
-				Computer Science student building skills in
-				<span class="text-white">networking & web development.</span>
-			</h2>
-
-			<p class="mt-6 text-lg leading-relaxed text-slate-400 max-w-2xl">
-				I'm currently working through my CCNA journey while also
-				exploring web development through a 90-day building challenge.
-			</p>
-
-			<div class="flex flex-wrap gap-4 mt-8">
-
-				<a
-					href="https://github.com/NetWithFaith"
-					target="_blank"
-					rel="noopener noreferrer"
-					class="rounded-md bg-white px-5 py-3 text-slate-950 font-medium hover:bg-slate-200 transition-colors"
+				<h1
+					class="mt-6 text-5xl font-bold tracking-tight text-white sm:text-6xl lg:text-7xl"
 				>
-					GitHub
-				</a>
+					Hi, I'm Frank Faith.
+				</h1>
 
-				<a
-					href="https://x.com/NetWithFaith"
-					target="_blank"
-					rel="noopener noreferrer"
-					class="rounded-md border border-slate-700 px-5 py-3 font-medium hover:border-slate-400 transition-colors"
+				<p
+					class="mt-7 max-w-2xl text-lg leading-8 text-slate-400 sm:text-xl"
 				>
-					X
-				</a>
-
-			</div>
-
-		</div>
-
-	</section>
-
-
-	<!-- About -->
-	<section id="about" class="border-t border-slate-800">
-
-		<div class="max-w-5xl mx-auto px-6 py-20">
-
-			<p class="text-blue-400 font-medium mb-3">
-				About me
-			</p>
-
-			<h2 class="text-3xl md:text-4xl font-bold">
-				A little about my journey.
-			</h2>
-
-			<div class="mt-6 max-w-3xl space-y-4 text-lg leading-relaxed text-slate-400">
-
-				<p>
-					I'm a Computer Science student with a growing interest
-					in networking and technology.
+					I'm learning full-stack development and networking while
+					building useful things for the web.
 				</p>
 
-				<p>
-					I'm currently working through my CCNA journey and using
-					Cisco Packet Tracer to practice the networking concepts
-					I'm learning.
-				</p>
+				<div class="mt-10 flex flex-wrap gap-4">
 
-				<p>
-					I'm also exploring web development through a 90-day
-					building challenge, where I'm learning by creating
-					projects and documenting my progress.
-				</p>
+					<a
+						href="/work"
+						class="rounded-full bg-blue-500 px-6 py-3 text-sm font-semibold text-white transition hover:bg-blue-400"
+					>
+						View my work
+					</a>
 
-			</div>
-
-		</div>
-
-	</section>
-
-
-	<!-- What I'm Learning -->
-	<section id="learning" class="border-t border-slate-800">
-
-		<div class="max-w-5xl mx-auto px-6 py-20">
-
-			<p class="text-blue-400 font-medium mb-3">
-				Currently learning
-			</p>
-
-			<h2 class="text-3xl md:text-4xl font-bold">
-				What I'm learning.
-			</h2>
-
-			<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-
-
-				<!-- Networking -->
-				<div class="border border-slate-800 rounded-lg p-6 md:p-8 hover:border-slate-600 transition-colors">
-
-					<div class="text-3xl mb-4">
-						🌐
-					</div>
-
-					<h3 class="text-2xl font-bold">
-						Networking
-					</h3>
-
-					<p class="mt-4 text-slate-400 leading-relaxed">
-						I'm working through my CCNA journey and building
-						my understanding of how networks work. I'm also
-						using Cisco Packet Tracer to practice what I learn.
-					</p>
-
-					<div class="flex flex-wrap gap-2 mt-6">
-
-						<span class="text-sm border border-slate-700 rounded-full px-3 py-1">
-							CCNA
-						</span>
-
-						<span class="text-sm border border-slate-700 rounded-full px-3 py-1">
-							Packet Tracer
-						</span>
-
-						<span class="text-sm border border-slate-700 rounded-full px-3 py-1">
-							IP Addressing
-						</span>
-
-						<span class="text-sm border border-slate-700 rounded-full px-3 py-1">
-							Subnetting
-						</span>
-
-						<span class="text-sm border border-slate-700 rounded-full px-3 py-1">
-							Routing
-						</span>
-
-						<span class="text-sm border border-slate-700 rounded-full px-3 py-1">
-							Switching
-						</span>
-
-					</div>
+					<a
+						href="/about"
+						class="rounded-full border border-slate-700 px-6 py-3 text-sm font-semibold text-slate-200 transition hover:border-blue-400 hover:text-blue-400"
+					>
+						About me
+					</a>
 
 				</div>
 
+				<div class="mt-10 flex gap-5 text-sm">
 
-				<!-- Web Development -->
-				<div class="border border-slate-800 rounded-lg p-6 md:p-8 hover:border-slate-600 transition-colors">
+					<a
+						href="https://github.com/NetWithFaith"
+						target="_blank"
+						rel="noreferrer"
+						class="text-slate-400 transition hover:text-white"
+					>
+						GitHub ↗
+					</a>
 
-					<div class="text-3xl mb-4">
-						💻
-					</div>
+					<span class="text-slate-700">/</span>
 
-					<h3 class="text-2xl font-bold">
-						Web Development
-					</h3>
+					<a
+						href="https://www.linkedin.com/in/faith-frank-119a94317?utm_source=share_via&utm_content=profile&utm_medium=member_andriod"
+						target="_blank"
+						rel="noreferrer"
+						class="text-slate-400 transition hover:text-blue-400"
+					>
+						LinkedIn ↗
+					</a>
 
-					<p class="mt-4 text-slate-400 leading-relaxed">
-						I'm exploring web development through a 90-day
-						building challenge. I'm learning by building,
-						sharing my progress, and getting familiar with
-						modern web development tools.
-					</p>
+					<span class="text-slate-700">/</span>
 
-					<div class="flex flex-wrap gap-2 mt-6">
-
-						<span class="text-sm border border-slate-700 rounded-full px-3 py-1">
-							SvelteKit
-						</span>
-
-						<span class="text-sm border border-slate-700 rounded-full px-3 py-1">
-							Tailwind CSS
-						</span>
-
-						<span class="text-sm border border-slate-700 rounded-full px-3 py-1">
-							Git
-						</span>
-
-						<span class="text-sm border border-slate-700 rounded-full px-3 py-1">
-							GitHub
-						</span>
-
-					</div>
+					<a
+						href="https://x.com/NetWithFaith"
+						target="_blank"
+						rel="noreferrer"
+						class="text-slate-400 transition hover:text-white"
+					>
+						X ↗
+					</a>
 
 				</div>
 
 			</div>
 
-
-			<!-- Small learning note -->
-			<p class="mt-8 text-sm text-slate-500">
-				I'm learning, experimenting, and adding to these skills as I progress.
-			</p>
-
 		</div>
 
 	</section>
 
 
-	<!-- Contact -->
-	<section id="contact" class="border-t border-slate-800">
+	<!-- INTRO -->
+	<section class="border-y border-slate-800 bg-slate-900">
 
-		<div class="max-w-5xl mx-auto px-6 py-20">
+		<div class="mx-auto max-w-6xl px-6 py-20">
 
-			<p class="text-blue-400 font-medium mb-3">
-				Contact
-			</p>
+			<div class="grid gap-10 lg:grid-cols-[180px_1fr]">
 
-			<h2 class="text-3xl md:text-4xl font-bold">
-				Let's connect.
-			</h2>
+				<p class="text-sm font-bold uppercase tracking-widest text-blue-400">
+					Currently
+				</p>
 
-			<p class="mt-4 text-lg text-slate-400">
-				Want to say hello or follow my journey?
-			</p>
+				<div class="max-w-2xl">
 
-			<div class="flex flex-wrap gap-5 mt-8">
+					<h2 class="text-3xl font-bold text-white">
+						Learning. Building. Improving.
+					</h2>
 
-				<a
-					href="mailto:frankfaith2525@gmail.com"
-					class="text-slate-300 hover:text-white transition-colors underline underline-offset-4"
-				>
-					Email
-				</a>
+					<p class="mt-5 leading-7 text-slate-400">
+						I'm developing my skills in modern web development while
+						also strengthening my foundation in computer networking
+						and cybersecurity.
+					</p>
 
-				<a
-					href="https://github.com/NetWithFaith"
-					target="_blank"
-					rel="noopener noreferrer"
-					class="text-slate-300 hover:text-white transition-colors underline underline-offset-4"
-				>
-					GitHub
-				</a>
+					<a
+						href="/about"
+						class="mt-6 inline-block text-sm font-semibold text-blue-400 transition hover:text-blue-300"
+					>
+						Learn more about me →
+					</a>
 
-				<a
-					href="https://x.com/NetWithFaith"
-					target="_blank"
-					rel="noopener noreferrer"
-					class="text-slate-300 hover:text-white transition-colors underline underline-offset-4"
-				>
-					X
-				</a>
+				</div>
 
 			</div>
 
@@ -291,17 +132,75 @@
 	</section>
 
 
-	<!-- Footer -->
-	<footer class="border-t border-slate-800">
+	<!-- WORK PREVIEW -->
+	<section class="bg-slate-950">
 
-		<div class="max-w-5xl mx-auto px-6 py-8 text-sm text-slate-500">
+		<div class="mx-auto max-w-6xl px-6 py-20">
 
-			<p>
-				© 2026 Frank Faith. Built while learning.
+			<p class="text-sm font-bold uppercase tracking-widest text-blue-400">
+				Selected work
 			</p>
+
+			<h2 class="mt-3 text-3xl font-bold text-white">
+				Things I'm building.
+			</h2>
+
+
+			<div class="mt-10 grid gap-5 md:grid-cols-2">
+
+				<a
+					href="/work"
+					class="group rounded-2xl border border-slate-800 bg-slate-900 p-7 transition hover:-translate-y-1 hover:border-blue-500"
+				>
+
+					<p class="text-sm text-blue-400">
+						01
+					</p>
+
+					<h3 class="mt-4 text-xl font-bold text-white">
+						Personal Portfolio
+					</h3>
+
+					<p class="mt-3 text-sm leading-6 text-slate-400">
+						A responsive portfolio built with SvelteKit and
+						Tailwind CSS.
+					</p>
+
+					<p class="mt-6 text-sm font-semibold text-slate-300 transition group-hover:text-blue-400">
+						View project →
+					</p>
+
+				</a>
+
+
+				<a
+					href="/work"
+					class="group rounded-2xl border border-slate-800 bg-slate-900 p-7 transition hover:-translate-y-1 hover:border-blue-500"
+				>
+
+					<p class="text-sm text-blue-400">
+						02
+					</p>
+
+					<h3 class="mt-4 text-xl font-bold text-white">
+						Networking Projects
+					</h3>
+
+					<p class="mt-3 text-sm leading-6 text-slate-400">
+						Hands-on networking work involving routing, switching,
+						IP addressing and troubleshooting.
+					</p>
+
+					<p class="mt-6 text-sm font-semibold text-slate-300 transition group-hover:text-blue-400">
+						View projects →
+					</p>
+
+				</a>
+
+			</div>
 
 		</div>
 
-	</footer>
+	</section>
 
-</div>
+</main>
